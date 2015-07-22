@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import string
+import support
 
 shift = 3
 choice = raw_input("would you like to encode or decode?")
