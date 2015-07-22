@@ -1,0 +1,8 @@
+FROM ruby:2.2
+
+RUN apt-get update -y && \
+  apt-get install -y \
+  nodejs 
+  
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
